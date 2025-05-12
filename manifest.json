@@ -1,0 +1,9 @@
+{
+    "name": "ReviveHeadInTruckOrExtractionPoint",
+    "description": "Bring a player head into the Truck or open Extraction Point, at any time, to revive them with 20 health.",
+    "version_number": "1.1.0",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ],
+    "website_url": "https://github.com/hypn/repo-revive-head-in-truck-or-extraction-point"
+}
