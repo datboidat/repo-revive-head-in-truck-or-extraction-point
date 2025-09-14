@@ -57,8 +57,10 @@ namespace Hypn.Patches
 
 			// skip if not in a valid revive location
 			bool inTruck = __instance?.roomVolumeCheck?.inTruck ?? false;
-			bool inExtractionPoint = __instance?.roomVolumeCheck?.inExtractionPoint ?? false;
-			if (!inTruck && !inExtractionPoint)
+		
+		if (!inTruck)
+
+
 			{
 				// Plugin.Logger.LogInfo($"{Plugin.ModName}: not in Extraction Point or Truck - not reviving!");
 				return;
