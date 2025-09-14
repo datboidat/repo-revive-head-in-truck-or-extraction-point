@@ -19,7 +19,7 @@ jobs:
       - name: Build plugin
         run: dotnet build src/ReviveHeadInTruckOrExtractionPoint.csproj --configuration Release --no-restore
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ReviveHeadInTruckOrExtractionPoint
           path: src/bin/Release/netstandard2.1/ReviveHeadInTruckOrExtractionPoint.dll
