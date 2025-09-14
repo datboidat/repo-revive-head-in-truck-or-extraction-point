@@ -59,6 +59,7 @@ namespace Hypn.Patches
 			bool inTruck = __instance?.roomVolumeCheck?.inTruck ?? false;
 		
 		if (!inTruck)
+Revive.cs
 
 
 			{
